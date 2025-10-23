@@ -1,0 +1,39 @@
+#container{
+    height: 300px;
+    background-color: rgb(255, 175, 235);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.item{
+    background-color: rgb(197, 230, 245);
+    padding: 10px;
+    margin: 10px;
+}
+
+#d5{
+    order: 1;
+}
+
+#d16{
+    order: -1;
+}
+
+#d4{
+    flex-grow: 3;
+}
+
+#d8{
+    flex-basis: 100px;
+}
+
+#d12{
+    align-self: flex-start;
+}
+
+#d14{
+    align-self: flex-end;
+}

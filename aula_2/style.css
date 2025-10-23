@@ -1,0 +1,28 @@
+p{
+    color: rgb(62, 63, 110);
+}
+
+#d1{
+    background-color: rgb(255, 198, 241);
+}
+
+.blue{
+    background-color: rgb(255, 183, 223);
+}
+
+.size18{
+    font-size: 18pt;
+}
+
+div p{
+    font-size: 40pt;
+}
+
+div:hover{
+    background-color: rgb(255, 149, 181);
+}
+
+
+a:visited{
+    color: darkgreen;
+}
