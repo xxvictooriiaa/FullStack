@@ -1,3 +1,16 @@
 body{
-    background-color: pink;
+    background-color: rgb(255, 127, 180);
+    font-family: cursive;
+    color: rgb(39, 31, 38);
+}
+
+form{
+    background-color: rgb(250, 242, 231);
+}
+
+div{
+    display: inline;
+    background-color: rgb(245, 242, 237);
+    margin: 10px;
+    padding: 10px;
 }

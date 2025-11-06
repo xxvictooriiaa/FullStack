@@ -1,18 +1,17 @@
+
 {
   "name": "servidor",
   "version": "0.1.0",
-  "description": "Meu primeiro projeto de FullStack",
+  "description": "Repositório das disciplinas de Full Stack na FEI",
   "main": "servidor.js",
   "scripts": {
+    "start": "node servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xxvictooriiaa/FullStack.git"
   },
-  "keywords": [
-    "wwx"
-  ],
   "author": "Victória",
   "license": "ISC",
   "bugs": {
@@ -21,6 +20,8 @@
   "homepage": "https://github.com/xxvictooriiaa/FullStack#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "express": "^5.1.0"
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^4.12.0"
   }
 }
